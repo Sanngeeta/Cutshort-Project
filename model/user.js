@@ -4,8 +4,7 @@ require("dotenv").config();
 
 
 // Connect to MongoDB
-const MONGO_URL = process.env.MONGO_URL || 'mongodb://0.0.0.0:27017/todoapp'
-
+const MONGO_URL = process.env.MONGO_URL || "mongodb+srv://user:sangeetapaswan@cluster0.kkcyd7x.mongodb.net/cutshortDB?retryWrites=true&w=majority"
 mongoose.connect(MONGO_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
